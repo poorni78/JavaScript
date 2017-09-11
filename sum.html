@@ -1,0 +1,21 @@
+<html>
+<head>
+<script type="text/javascript">
+function sum()
+{
+var a=document.frm.txt.value;
+var b;
+a=parseInt(a);
+//alert(a*(a+1));
+b=(a*(a+1))/2;
+alert(b);
+}
+</script>
+</head>
+<body>
+<form name="frm">
+Enter the number:<input type="text" name="txt"><br>
+<input type="submit" name="btn" onclick="sum()">
+</form>
+</body>
+</html>
